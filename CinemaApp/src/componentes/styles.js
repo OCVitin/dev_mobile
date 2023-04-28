@@ -6,8 +6,15 @@ const styles = StyleSheet.create({
         width: '100%',
         padding: 10,
         borderRadius: 10,
+        borderWidth: 1,
+        borderColor: '#222222',
+        margin: 2,
+        backgroundColor: '#111111',
+        shadowColor: '#000000',
+        shadowRadius: 10,
+        shadowOpacity: 0.7,
     },
-    campoImagem: {
+    poster: {
         width: '30%',
         height: '100%'
     },
@@ -16,19 +23,27 @@ const styles = StyleSheet.create({
         width: '100%',
         borderRadius: 10,
     },
-    infoItem: {
+    infoFilme: {
         width: '70%',
-        padding: 10,
+        paddingLeft: 10,
         borderRadius: 10,
-        justifyContent: "space-between"
     },
-    nomeItem: {
+    titulo: {
         textAlign: 'center',
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        color: '#efefef',
     },
-    descItem: {
+    subtitulo: {
+        textAlign: 'center',
+        fontWeight: 'bold',
+        fontSize: 12,
+        color: '#efefef',
+    },
+    sinopse: {
         margin: 5,
+        fontSize: 11,
+        color: '#efefef',
     },
     btnTroca: {},
 });
