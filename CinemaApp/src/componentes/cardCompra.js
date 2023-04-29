@@ -22,7 +22,7 @@ export default function Card({props}){
                     <Text style={styles.sinopse}>{props.attributes.sinopse}</Text>
                 </View>
                 <View style={styles.btnTroca}>
-                    <Button title="Cromprar!" color="#950101"/>
+                    <Button title="Comprar!" color="#950101"/>
                 </View>
             </View>
         </View>
